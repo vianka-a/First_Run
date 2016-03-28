@@ -1,0 +1,240 @@
+*{
+margin:0;
+padding:0;
+border:0;
+}
+
+body{
+  background-color:rgba(80,84,93,100);
+}
+
+.nav_bar{
+  background-color:rgba(155,155,155,100);
+  /*text-align:right;*/
+  font: normal small-caps normal 14px/1.4 futura;
+  color: white;
+  width: 100%;
+  height: 1px;
+  float: right;
+  text-align: right;
+  padding: 20px;
+  /*text-decoration: none;*/
+  /*list-style-type: none;*/
+}
+#nav1{
+  float:left;
+  padding-left:8%;
+  margin-left:72%;
+  list-style-type: none;
+  text-align: right;
+}
+
+li{
+  float: left;
+  text-align:right;
+}
+
+.cover_page{
+  background-image: url("http://i.imgur.com/YW718ug.jpg");
+  height: 693px;
+  background-size: cover;
+}
+
+.logo{
+  font: normal 1.4 futura;
+  text-align: left;
+  margin-left: 4%;
+}
+
+.clock{
+    /*width: 100px;
+  	height: 100px;*/
+  	-moz-border-radius: 50px;
+  	-webkit-border-radius: 50px;
+  	border-radius: 50px;
+    /*align-content: flex-end;*/
+    margin-right:10%;
+    padding: 0px;
+    float:right;
+    margin-top: -1%;
+}
+/*
+.cover_page {
+  background-size: cover;
+  background-color:white;
+  background-image: inherit;
+}*/
+
+h1{
+  font: normal small-caps normal 90px/1.4 futura;
+  color:white;
+  text-align:right;
+  position: relative;
+  margin-top: 20%;
+  margin-right:90px;
+  /*margin-left: 0;*/
+  /*-moz-box-shadow:    0px 0px 10px 10px #000;
+  -webkit-box-shadow: 0px 0px 10px 10px #000;*/
+  text-shadow:0px 0px 50px #000;
+}
+
+button {
+    background-color: rgba(255,255,255,.2);
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    width: 250px;
+    height: 55px;
+    /* float: right; */
+    /* margin-left: auto; */
+    /* margin-right: 10%; */
+    color: gold;
+    font: normal small-caps normal 20px/1.4 futura;
+    position: relative;
+}
+
+.download {
+    margin-left: 444px;
+}
+
+.guest_head img{
+  /*background-color:rgba(201,151,79,100);*/
+  /*font:normal small-caps normal 50px/1.4 futura;*/
+  /*padding:0,0;
+  height:104px;
+  color:white;
+  margin:center;*/
+  text-align:left;
+  float:left;
+}
+
+.guest_page{
+overflow: hidden;
+height: 500px;
+/*background-color:rgba(75,67,63,100);*/
+
+}
+.google{
+  margin-left: 227px;
+  margin-top: 38px;
+  color: gold;
+}
+
+.apple{
+      margin-left: 22px;
+      margin-top: 37px;
+      float: right;
+      margin-right: 223px;
+      color: gold;
+}
+.line_photo{
+      background-image: url("http://i.imgur.com/Pmy4SOi.png");
+      height: 700px;
+      width: 80%;
+      position: absolute;
+      /* float: right; */
+      margin-top: 0%;
+      margin-left: 253px;
+      /* margin-bottom: 20%; */
+      /* padding: 20%; */
+  }
+.phone{
+      width: 20%;
+      position: absolute;
+      /* float: left; */
+      margin-top: 10%;
+      margin-bottom: 20%;
+      margin-left: 2%;
+  }
+
+.rest_head{
+      background-color: rgba(201,151,79,100);
+      font: normal small-caps normal 50px/1.4 futura;
+      height: 104px;
+      /* margin: 20%; */
+      color: white;
+      text-align: right;
+      position: relative;
+      margin-top: 16%;
+  }
+.rest_photo{
+  background-image: url("http://i.imgur.com/S6ZQ8Jg.png?1");
+  height: 648px;
+  width: 37%;
+  position: absolute;
+  /* float: right; */
+  margin-top: 0%;
+  /* margin-left: 253px; */
+  /* margin-bottom: 20%; */
+  /* padding: 20%; */
+}
+.final_page{
+overflow: hidden;
+height: 500px;
+}
+
+h2{
+    font:normal small-caps normal 50px/1.4 futura;
+    background-color:rgba(201,151,79,100);
+    height:104px;
+    margin: center;
+    color:white;
+    background-size:cover;
+    position:relative;
+}
+
+/*.rest_photo{
+background-image: url("http://i.imgur.com/S6ZQ8Jg.png");
+}*/
+
+.ipad img{
+  width: auto;
+  /* position: absolute; */
+  /* float: left; */
+  margin-top: 5%;
+  /* padding: 0px; */
+  margin-left: 615px;
+  /* float: right; */
+}
+
+p{
+  font: normal small-caps normal 50px/1.4 futura;
+  color:white;
+  text-align:right;
+  position: relative;
+  /*margin-top: 20%;
+  margin-right:90px;*/
+  /*margin-left: 0;*/
+  /*-moz-box-shadow:    0px 0px 10px 10px #000;
+  -webkit-box-shadow: 0px 0px 10px 10px #000;*/
+  text-shadow: 0px 0px 50px #000;
+  margin-right: 154px;
+  margin-top: 35px;
+}
+
+.signup{
+  margin-left: 375px;
+  margin-top: 10px;
+}
+
+h3{
+  font: normal small-caps normal 30px/1.4 futura;
+  color: white;
+  text-align: left;
+  margin-left: 1%;
+  /* position: relative; */
+}
+
+
+
+.footer {
+  background-color: rgba(155,155,155,100);
+  font: normal small-caps normal 14px/1.4 futura;
+  color: white;
+  width: 100%;
+  /* height: 50px; */
+  /* float: right; */
+  text-align: left;
+  padding: 20px;
+  margin-top: 148px;
+}
